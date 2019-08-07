@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6256EF833DFABEF3BD6F70E3 /* Pods_RangeSliderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB70AE03529C92D08F5EE99 /* Pods_RangeSliderDemo.framework */; };
 		64495A441ACAD93700482D73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64495A431ACAD93700482D73 /* main.m */; };
 		64495A471ACAD93700482D73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64495A461ACAD93700482D73 /* AppDelegate.m */; };
 		64495A4A1ACAD93700482D73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64495A491ACAD93700482D73 /* ViewController.m */; };
@@ -14,8 +15,7 @@
 		64495A4F1ACAD93700482D73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64495A4E1ACAD93700482D73 /* Images.xcassets */; };
 		64495A521ACAD93700482D73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64495A501ACAD93700482D73 /* LaunchScreen.xib */; };
 		64495A5E1ACAD93700482D73 /* RangeSliderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64495A5D1ACAD93700482D73 /* RangeSliderDemoTests.m */; };
-		6BA46D091BD8E1CF0049740C /* custom-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA46D081BD8E1CF0049740C /* custom-handle.png */; settings = {ASSET_TAGS = (); }; };
-		E06CDBE58BA42330DDAA7756 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B160588054A1ABBEE2B53C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6BA46D091BD8E1CF0049740C /* custom-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA46D081BD8E1CF0049740C /* custom-handle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DBBEE5E29AE142C4743C900 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1EB70AE03529C92D08F5EE99 /* Pods_RangeSliderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RangeSliderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1CD07623E3B438ED3D3272 /* Pods-RangeSliderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RangeSliderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RangeSliderDemo/Pods-RangeSliderDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		64495A3E1ACAD93700482D73 /* RangeSliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RangeSliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64495A421ACAD93700482D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64495A431ACAD93700482D73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,7 +45,7 @@
 		64495A5C1ACAD93700482D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64495A5D1ACAD93700482D73 /* RangeSliderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RangeSliderDemoTests.m; sourceTree = "<group>"; };
 		6BA46D081BD8E1CF0049740C /* custom-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "custom-handle.png"; sourceTree = "<group>"; };
-		E03B9800BFD96602A5FB30A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		71623561E97DABC91C74A0BC /* Pods-RangeSliderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RangeSliderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RangeSliderDemo/Pods-RangeSliderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F3B160588054A1ABBEE2B53C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E06CDBE58BA42330DDAA7756 /* Pods.framework in Frameworks */,
+				6256EF833DFABEF3BD6F70E3 /* Pods_RangeSliderDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,17 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				F3B160588054A1ABBEE2B53C /* Pods.framework */,
+				1EB70AE03529C92D08F5EE99 /* Pods_RangeSliderDemo.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3BBE6838E889427035751638 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E03B9800BFD96602A5FB30A7 /* Pods.debug.xcconfig */,
-				3DBBEE5E29AE142C4743C900 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		64495A351ACAD93700482D73 = {
@@ -90,8 +83,8 @@
 				64495A401ACAD93700482D73 /* RangeSliderDemo */,
 				64495A5A1ACAD93700482D73 /* RangeSliderDemoTests */,
 				64495A3F1ACAD93700482D73 /* Products */,
-				3BBE6838E889427035751638 /* Pods */,
 				14ACF65C76FC4FFB4BB6625D /* Frameworks */,
+				CA5C64A8740C0CE84CA7D753 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +147,15 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		CA5C64A8740C0CE84CA7D753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B1CD07623E3B438ED3D3272 /* Pods-RangeSliderDemo.debug.xcconfig */,
+				71623561E97DABC91C74A0BC /* Pods-RangeSliderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,12 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64495A611ACAD93700482D73 /* Build configuration list for PBXNativeTarget "RangeSliderDemo" */;
 			buildPhases = (
-				C00C0A5A2102F7AE46FE79FE /* Check Pods Manifest.lock */,
+				A847C82FB73C83876754019D /* [CP] Check Pods Manifest.lock */,
 				64495A3A1ACAD93700482D73 /* Sources */,
 				64495A3B1ACAD93700482D73 /* Frameworks */,
 				64495A3C1ACAD93700482D73 /* Resources */,
-				DE9C2C55B2ECBE6D272551DB /* Copy Pods Resources */,
-				535947C51E2BAB645D940AAE /* Embed Pods Frameworks */,
+				55EBCCA948456529D417EE7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,7 +202,7 @@
 		64495A361ACAD93700482D73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = tomthorpe;
 				TargetAttributes = {
 					64495A3D1ACAD93700482D73 = {
@@ -254,49 +255,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		535947C51E2BAB645D940AAE /* Embed Pods Frameworks */ = {
+		55EBCCA948456529D417EE7A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RangeSliderDemo/Pods-RangeSliderDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TTRangeSlider/TTRangeSlider.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTRangeSlider.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RangeSliderDemo/Pods-RangeSliderDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C00C0A5A2102F7AE46FE79FE /* Check Pods Manifest.lock */ = {
+		A847C82FB73C83876754019D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RangeSliderDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DE9C2C55B2ECBE6D272551DB /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -358,20 +350,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -399,13 +403,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -413,6 +427,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -428,24 +443,28 @@
 		};
 		64495A621ACAD93700482D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E03B9800BFD96602A5FB30A7 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 3B1CD07623E3B438ED3D3272 /* Pods-RangeSliderDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RangeSliderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomthorpe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		64495A631ACAD93700482D73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DBBEE5E29AE142C4743C900 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 71623561E97DABC91C74A0BC /* Pods-RangeSliderDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RangeSliderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomthorpe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -464,6 +483,7 @@
 				);
 				INFOPLIST_FILE = RangeSliderDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomthorpe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RangeSliderDemo.app/RangeSliderDemo";
 			};
@@ -479,6 +499,7 @@
 				);
 				INFOPLIST_FILE = RangeSliderDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomthorpe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RangeSliderDemo.app/RangeSliderDemo";
 			};
